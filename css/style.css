@@ -129,26 +129,25 @@ html {
 
 .attribution {
     position: absolute;
-    bottom: 0;
-    font-size: 1.35rem;
+    bottom: 1rem;
+    font-size: 1.28rem;
     font-family: 'Lexend Deca', sans-serif;
     color: hsl(20, 15%, 75%);
     text-align: center;
-    margin-bottom: 1em;
 }
 
 .attribution a {
-    color: burlywood;
+    color: hsl(20, 15%, 70%);
     transition: .25s;
     text-decoration: none;
 }
 
 .attribution a:hover {
-    color: brown;
+    color: burlywood;
 }
 
 .attribution a:active {
-    color: orange;
+    color: hsl(33.79, 100%, 70%);
 }
 
 @media (max-width: 750px) {
