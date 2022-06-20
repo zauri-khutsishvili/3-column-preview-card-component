@@ -138,17 +138,17 @@ html {
 }
 
 .attribution a {
-    color: hsl(20, 15%, 70%);
+    color: burlywood;
     transition: .25s;
     text-decoration: none;
 }
 
 .attribution a:hover {
-    color: black;
+    color: brown;
 }
 
 .attribution a:active {
-    color: #b4b4b4;
+    color: orange;
 }
 
 @media (max-width: 750px) {
