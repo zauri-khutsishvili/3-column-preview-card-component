@@ -102,19 +102,19 @@ html {
     color: var(--very-light-gray) !important;
 }
 
-.card__type:nth-child(1) .card__type__button {
+.card__type:nth-child(1) .card__type__button p {
     color: var(--bright-orange);
+    margin-top: -0.1rem;
 }
 
-.card__type:nth-child(2) .card__type__button {
+.card__type:nth-child(2) .card__type__button p {
     color: var(--dark-cyan);
-}
-
-.card__type:nth-child(3) .card__type__button {
-    color: var(--very-dark-cyan);
+    margin-top: -0.1rem;
 }
 
 .card__type:nth-child(3) .card__type__button p {
+    color: var(--very-dark-cyan);
+    margin-top: -0.1rem;
     margin-left: -0.15rem;
 }
 
