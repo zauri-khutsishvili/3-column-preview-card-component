@@ -118,6 +118,30 @@ html {
     margin-left: -0.15rem;
 }
 
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.35rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(20, 15%, 75%);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.attribution a {
+    color: hsl(20, 15%, 70%);
+    transition: .25s;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: black;
+}
+
+.attribution a:active {
+    color: #b4b4b4;
+}
+
 @media (max-width: 750px) {
     .container {
         height: 150.2rem;
@@ -162,45 +186,4 @@ html {
     .card__type__button p {
         margin-top: -0.1rem;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
