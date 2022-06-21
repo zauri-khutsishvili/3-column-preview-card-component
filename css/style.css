@@ -8,11 +8,9 @@
 }
 
 :root {
-    /*Primary colors*/
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
-    /*Neutral colors*/
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
 }
@@ -61,7 +59,7 @@ html {
     border-radius: 0 .8rem .8rem 0;
 }
 
-.card__type__title {
+.card__title {
     font-size: 4rem;
     color: var(--very-light-gray);
     font-family: 'Big Shoulders Display', cursive;
@@ -70,7 +68,7 @@ html {
     margin-bottom: 2.5rem;
 }
 
-.card__type__description {
+.card__description {
     margin-left: -0.05rem;
     font-size: 1.5rem;
     color: var(--transparent-white);
@@ -79,7 +77,7 @@ html {
     letter-spacing: 0.002rem;
 }
 
-.card__type__button {
+.card__button {
     width: 14.6rem;
     height: 4.8rem;
     position: absolute;
@@ -98,32 +96,32 @@ html {
     transition: .25s;
 }
 
-.card__type__button:hover {
+.card__button:hover {
     background-color: transparent;
     color: var(--very-light-gray) !important;
 }
 
-.card__type:nth-child(1) .card__type__button {
+.card__type:nth-child(1) .card__button {
     color: var(--bright-orange);
 }
 
-.card__type:nth-child(1) .card__type__button p {
+.card__type:nth-child(1) .card__button p {
     margin-top: -0.1rem;
 }
 
-.card__type:nth-child(2) .card__type__button {
+.card__type:nth-child(2) .card__button {
     color: var(--dark-cyan);
 }
 
-.card__type:nth-child(2) .card__type__button p {
+.card__type:nth-child(2) .card__button p {
     margin-top: -0.1rem;
 }
 
-.card__type:nth-child(3) .card__type__button {
+.card__type:nth-child(3) .card__button {
     color: var(--very-dark-cyan);
 }
 
-.card__type:nth-child(3) .card__type__button p {
+.card__type:nth-child(3) .card__button p {
     margin-top: -0.1rem;
     margin-left: -0.15rem;
 }
@@ -172,8 +170,8 @@ html {
         border-radius: .8rem .8rem 0 0;
     }
 
-    .card__type:nth-child(1) .card__type__icon,
-    .card__type:nth-child(2) .card__type__icon {
+    .card__type:nth-child(1) .card__icon,
+    .card__type:nth-child(2) .card__icon {
         margin-top: -0.1rem;
     }
 
@@ -182,17 +180,17 @@ html {
         padding: calc(48 / 327 * 100%) calc(48.5 / 327 * 100%) 0 calc(47.5 / 327 * 100%);
     }
 
-    .card__type__description {
+    .card__description {
         margin-right: auto;
         margin-bottom: 12.1rem;
     }
 
-    .card__type__button {
+    .card__button {
         width: calc(146 / 327 * 100%);
         bottom: calc(48 / 442 * 100%);
     }
 
-    .card__type__button p {
+    .card__button p {
         margin-top: -0.1rem;
     }
 }
