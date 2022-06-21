@@ -4,7 +4,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-GL3SDJE6-L](https://www.frontendmentor.io/solutions/order-summary-component-GL3SDJE6-L)
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-4Bk6rvuf2b](https://www.frontendmentor.io/solutions/3column-preview-card-component-4Bk6rvuf2b)
 - Live Site URL: [https://zauri-khutsishvili.github.io/3-column-preview-card-component/](https://zauri-khutsishvili.github.io/3-column-preview-card-component/)
 
 ## Built with
@@ -12,6 +12,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- BEM
 
 ## Author
 
