@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Big+Shoulders+Display:wght@700&display=swap');
-
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
 :root {
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
 html {
@@ -125,29 +123,6 @@ html {
     margin-left: -0.15rem;
 }
 
-.attribution {
-    position: absolute;
-    bottom: 1rem;
-    font-size: 1.28rem;
-    font-family: 'Lexend Deca', sans-serif;
-    color: hsl(20, 15%, 75%);
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(20, 15%, 70%);
-    transition: .25s;
-    text-decoration: none;
-}
-
-.attribution a:hover {
-    color: burlywood;
-}
-
-.attribution a:active {
-    color: hsl(33.79, 100%, 70%);
-}
-
 @media (max-width: 750px) {
     .container {
         height: 150.2rem;
@@ -192,4 +167,27 @@ html {
     .card__button p {
         margin-top: -0.1rem;
     }
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1rem;
+    font-size: 1.28rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(20, 15%, 75%);
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(20, 15%, 70%);
+    transition: .25s;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: burlywood;
+}
+
+.attribution a:active {
+    color: hsl(33.79, 100%, 70%);
 }
