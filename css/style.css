@@ -6,7 +6,7 @@
     --very-light-gray: hsl(0, 0%, 95%);
 }
 
-*, *::after, *::before {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -156,7 +156,7 @@ body {
 
     @media (max-width: 240px) {
         .card__button {
-            width: 67.5%;
+            width: 67%;
             padding-top: 0;
             padding-bottom: 0;
             height: 4.4rem;
