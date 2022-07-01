@@ -60,6 +60,7 @@ body {
 
 .card__title {
     font-size: 4rem;
+    letter-spacing: 0.001em;
     color: var(--very-light-gray);
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
@@ -79,7 +80,8 @@ body {
 .card__button {
     all: unset;
     width: 14.2rem;
-    height: 4.4rem;
+    padding-top: 1.35rem;
+    padding-bottom: 1.15rem;
     position: absolute;
     bottom: 4.8rem;
     margin-top: 8.3rem;
