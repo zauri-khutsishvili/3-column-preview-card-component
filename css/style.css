@@ -80,8 +80,8 @@ body {
 .card__button {
     all: unset;
     width: 14.2rem;
-    padding-top: 1.35rem;
-    padding-bottom: 1.15rem;
+    padding-top: 1.15rem;
+    padding-bottom: 1.35rem;
     position: absolute;
     bottom: 4.8rem;
     margin-top: 8.3rem;
