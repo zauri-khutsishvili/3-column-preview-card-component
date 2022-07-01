@@ -91,7 +91,7 @@ body {
     font-size: 1.5rem;
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
-    transition: .25s;
+    transition: background-color .25s, color .25s;
     cursor: pointer;
 }
 
@@ -154,9 +154,12 @@ body {
         bottom: calc(48 / 442 * 100%);
     }
 
-    @media (max-width: 208px) {
+    @media (max-width: 240px) {
         .card__button {
             width: 67.5%;
+            padding-top: 0;
+            padding-bottom: 0;
+            height: 4.4rem;
         }
     }
 }
